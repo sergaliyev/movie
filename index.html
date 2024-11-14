@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies & TV - Website</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="row-layout navbar">
+                <h2><a href="#">Midka Movies
+                </a></h3>
+                
+                <a href="#" class="toggle-btn">
+                    <i class="fas fa-bars"></i>
+                </a>
+
+                <div class="navbar-links">
+                    <ul class="row-layout">
+                        <li class="nav-link"><a href="#">Movies</a></li>
+                        <li class="nav-link"><a href="./tv_series.html">TV</a></li>
+                        <form id="form">
+                            <input type="text" id="search" placeholder="Search">
+                        </form>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+    
+        
+        <section class="hero-section">
+            <div class="latest-movies">
+        
+            </div>
+        </section>
+         
+        <main id="main">
+            <section class="container">
+                <h2>Now Playing Movies</h2>
+                <div class="now-playing-movies flex-display">
+                </div>
+            </section>
+            <section class="container">
+                <h2>Popular Movies</h2>
+                <div class="popular-movies flex-display">
+                </div>
+            </section>
+            <section class="container">
+                <h2>Top Rated Movies</h2>
+                <div class="top-rated-movies flex-display">
+                </div>
+            </section>
+            <section class="container">
+                <h2>Comedy Movies</h2>
+                <div class="comedy-movies flex-display">
+                </div>
+            </section>
+            <section class="container">
+                <h2>Horror Movies</h2>
+                <div class="horror-movies flex-display">
+                </div>
+            </section>
+        </main>
+
+        <div class="individual-movie">
+            <img src="movie-image.jpg" alt="Movie Image" class="movie-image">
+            <div class="movie-info">
+                <h3>Movie Title</h3>
+                <p>Overview of the movie...</p>
+                <p class="rating">Rating: 8/10</p>
+            </div>
+        </div>
+        
+
+        <section class="container">
+            <div class="search-movies flex-display">
+            </div>
+        </section>
+            
+        <footer>
+            <div>
+                <p>&copy; XD</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/9f89b7be21.js" crossorigin="anonymous"></script>
+    
+    <script type="module" src="./JS/script.js"></script>
+</body>
+</html>
